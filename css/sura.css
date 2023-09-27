@@ -1,0 +1,38 @@
+.sura-main {
+    background-color: gold;
+}
+.sura-ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-bottom: 18px;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: #000 2px solid;
+    justify-content: space-between;
+}
+
+.sura-ul:last-child {
+    margin: 0;
+    padding: 0;
+    border: none;
+    justify-content: center;
+}
+
+.sura-li  {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: #000 2px solid;
+    transition: all 0.3s ease-in-out;
+}
+.sura-li:hover {
+    border-radius: 0;
+    background-color: goldenrod;
+}
+
+.sura-li:active {
+    border-radius: 10px;
+}
